@@ -1,0 +1,49 @@
+h1, p {
+  text-align: center;
+  color: #a3e2ff;
+  margin: 1em auto
+}
+
+body {
+  background-color: #006666;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-size: 18px;
+}
+
+form {
+  width: 60vw;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  max-width: 400px;
+}
+
+fieldset {
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 3px solid #ffffff;
+}
+
+label {
+  display: block;
+  margin: .5rem 0;
+  color: #a3e2ff;
+}
+
+
+input, textarea, select {
+  width: 100%;
+  background-color: white;
+}
+
+legend {
+  color: #a2e3ff;
+  padding-top: 2px;
+}
+
+.inline {
+  display: inline;
+  width: unset;
+  vertical-align: top;
+}
