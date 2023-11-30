@@ -20,7 +20,7 @@
       <label id="number-label" for="number">Enter your phone number: <input id="number" type="number" min="0" max="9" placeholder="2534555942" required></input></label>
       </fieldset>
       <fieldset>
-        <legend>Should this project be frontend or backend?</legnend>
+        <legend>Should this project be frontend or backend?</legend>
       <select id="dropdown">
         <option value="">Select One</option>
         <option value="1">Frontend</option>
