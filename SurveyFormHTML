@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Survey Form</title>
+      <link rel="stylesheet" href="styles.css"></link>
+    </head>
+  </html>
+  <body>
+    <h1 id="title">Survey Form
+    </h1>
+    <p id="description">
+       Plese complete this short survey to help create a new project for me to build!
+    </p>
+    <form method="post" id="survey-form">
+      <fieldset>
+      <label id="name-label" for="name">Enter your full name: <input id="name" type="text" placeholder="Osman Torres" required>
+      </input></label>
+      <label id="email-label" for="email">Enter your email address: <input id="email" type="email" placeholder="osman.torresalfaro@gmail.com" required></input></label>
+      <label id="number-label" for="number">Enter your phone number: <input id="number" type="number" min="0" max="9" placeholder="2534555942" required></input></label>
+      </fieldset>
+      <fieldset>
+        <legend>Should this project be frontend or backend?</legnend>
+      <select id="dropdown">
+        <option value="">Select One</option>
+        <option value="1">Frontend</option>
+        <option value="2">Backend</option>
+        <option value="3">Both</option>
+      </select>
+      </fieldset>
+      <fieldset>
+        <legend>What programming language should I use?</legend>
+        <label for="java"><input id="java" value="1" type="radio" name="programming-lang" class="inline" checked></input>Java</label>
+        <label for="c-sharp"><input id="c-sharp" value="2" type="radio" name="programming-lang" class="inline"</input>C#</label>
+        <label for="python"><input id="python" value="3" type="radio" name="programming-lang" class="inline"</input>Python</label>
+        <label for="html"><input id="html" value="4" type="radio" name="programming-lang" class="inline"></input>HTML</label>
+      </fieldset>
+      <fieldset>
+        <legend>Should the project include any of the following?</legend>
+        <label for="api"><input id="api" type="checkbox" value="1" class="inline"</input>API</label>
+        <label for="app"><input id="app" type="checkbox" value="2" class="inline"></input>Application</label>
+      </fieldset>
+      <fieldset>
+        <label for="description">Provide a description of what the project should do, look like, parameters, etc.<textarea id="description" placeholder="Make a chess game..."></textarea></label>
+        <input id="submit" type="submit"></input>
+      </fieldset>
+    </form>
+  </body>
